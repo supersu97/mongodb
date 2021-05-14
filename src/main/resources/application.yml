@@ -1,0 +1,12 @@
+spring:
+  #数据源配置
+  data:
+    mongodb:
+      # 主机地址
+      host: 120.24.145.61
+      # 数据库
+      database: su
+      # 默认端口是27017
+      port: 27017
+      #也可以使用uri连接
+      #uri: mongodb://120.24.145.61:27017,120.24.145.61:27018,120.24.145.61:27019/su?connect=replicaSet&slaveOk=true&replicaSet=myrs
